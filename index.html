@@ -1,315 +1,343 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="icem, iaeste"/>
-    <meta name="copyright" content="IAESTE AGH" />
-    <meta name="description" content="ICEM (IAESTE Central European Meeting) – „Cracow Adventure” is an annual event for both IAESTE trainees and members from all over the world">
+    <meta name="copyright" content="IAESTE AGH"/>
+    <meta name="description"
+          content="ICEM (IAESTE Central European Meeting) – „Cracow Adventure” is an annual event for both IAESTE trainees and members from all over the world">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+            integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+            integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+            crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Rubik+Mono+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="styles/mobile-styles.css">
+    <link rel="icon" type="image/webp" href="img/favicon.webp"/>
     <script src="js/butter.js" charset="utf-8"></script>
     <title>IAESTE ICEM 2024</title>
-  </head>
-  <body>
+</head>
+<body>
 
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-md bg-light navbar-light fixed-top shadow-sm navbar-custom">
-     <!-- Brand -->
-     <a class="navbar-brand" href="#"><img src="img/wlepa12.png" alt="logo" class="img-fluid logo"></a>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg bg-light navbar-light fixed-top shadow-sm navbar-custom">
+    <!-- Brand -->
+    <a class="navbar-brand" href="#"><img src="img/logo.png" alt="logo" class="logo"></a>
 
-     <!-- Toggler/collapsibe Button -->
-     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-label="Menu">
-       <span class="navbar-toggler-icon"></span>
-     </button>
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"
+            aria-label="Menu">
+        <span class="navbar-toggler-icon"></span>
+    </button>
 
-     <!-- Navbar links -->
-     <div class="collapse navbar-collapse" id="collapsibleNavbar">
-       <ul class="navbar-nav">
-         <li class="nav-item">
-           <a class="nav-link" href="#about-icem">About ICEM</a>
-         </li>
-         <li class="nav-item">
-           <a class="nav-link" href="#register">Sign up</a>
-         </li>
-         <li class="nav-item">
-           <a class="nav-link" href="#schedule">Schedule</a>
-         </li>
-         <li class="nav-item">
-           <a class="nav-link" href="#guidebook">Guidebook</a>
-         </li>
-         <li class="nav-item">
-           <a class="nav-link" href="#payment">Payment</a>
-         </li>
-         <li class="nav-item">
-           <a class="nav-link" href="#contact">Contact</a>
-         </li>
-       </ul>
-     </div>
-    </nav>
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#about-icem">About ICEM</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#register">Sign up</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#schedule">Schedule</a>
+            </li>
+            <!--         <li class="nav-item">-->
+            <!--           <a class="nav-link" href="#guidebook">Guidebook</a>-->
+            <!--         </li>-->
+            <li class="nav-item">
+                <a class="nav-link" href="#payment">Payment</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
 
-    <!-- Zdjęcia -->
+<!-- Zdjęcia -->
 
-    <div class="top">
+<div class="top">
 
-      <div id="demo" class="carousel slide" data-ride="carousel" >
+    <div id="demo" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ul class="carousel-indicators indicators-custom">
-          <li data-target="#demo" data-slide-to="0" class="active"></li>
-          <li data-target="#demo" data-slide-to="1"></li>
-          <li data-target="#demo" data-slide-to="2"></li>
-          <li data-target="#demo" data-slide-to="3"></li>
-          <li data-target="#demo" data-slide-to="4"></li>
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+            <li data-target="#demo" data-slide-to="3"></li>
+            <li data-target="#demo" data-slide-to="4"></li>
         </ul>
 
         <!-- The slideshow -->
-        <div class="carousel-inner opacity"  style="width: 100%; height: 50vw">
-          <div class="carousel-item active">
-            <img src="img/prev1.jpg" class="img-fluid" alt="Step 1: get bootstrap">
-          </div>
-          <div class="carousel-item">
-            <img src="img/prev2.jpg" class="img-fluid" alt="Step 2: copy templates">
-          </div>
-          <div class="carousel-item">
-            <img src="img/prev3.jpg" class="img-fluid" alt="Step 3: profit">
-          </div>
-          <div class="carousel-item">
-            <img src="img/prev4.jpg" class="img-fluid" alt="Step 3: profit">
-          </div>
-          <div class="carousel-item">
-            <img src="img/prev5.jpg" class="img-fluid" alt="Step 3: profit">
-          </div>
+        <div class="carousel-inner opacity" style="width: 100%; height: 50vw">
+            <div class="carousel-item active">
+                <img src="img/prev1.jpg" class="img-fluid" alt="Step 1: get bootstrap">
+            </div>
+            <div class="carousel-item">
+                <img src="img/prev2.jpg" class="img-fluid" alt="Step 2: copy templates">
+            </div>
+            <div class="carousel-item">
+                <img src="img/prev3.jpg" class="img-fluid" alt="Step 3: profit">
+            </div>
+            <div class="carousel-item">
+                <img src="img/prev4.jpg" class="img-fluid" alt="Step 3: profit">
+            </div>
+            <div class="carousel-item">
+                <img src="img/prev5.jpg" class="img-fluid" alt="Step 3: profit">
+            </div>
         </div>
 
 
-      </div>
+    </div>
 
-      <div class="over-image">
+    <div class="over-image">
         <div>
-          <h1 class="h-main">ICEM 2024</h1>
+            <h1 class="h-main">ICEM 2024</h1>
         </div>
         <div class="f-under"></div>
         <div class="date">
-          <h3 class="h-date">CRACOW</h3>
-          <h3 class="h-date">23.08-25.08</h3>
+            <h3 class="h-date">CRACOW</h3>
+            <h3 class="h-date">23.08-25.08</h3>
         </div>
-      </div>
-
     </div>
 
-    <!-- About ICEM -->
+</div>
 
-    <div id="about-icem" class="b-about section paralax">
+<!-- About ICEM -->
 
-      <h3 class="h-section">About ICEM</h3>
-      <div class="s-under a-under"></div>
+<div id="about-icem" class="b-about section paralax">
 
-      <div class="t-section">
+    <h3 class="h-section">About ICEM</h3>
+    <div class="s-under a-under"></div>
+
+    <div class="t-section">
         <div class="about-main">
-          <div class="about-item">
-            <span class="about-head">Where?</span><br>
-            <img src="img/location.svg" alt="Location"><br>
-            Cracow, AGH UST
-          </div>
-          <div class="about-item">
-            <span class="about-head">When?</span><br>
-            <img src="img/calendar.svg" alt="Calendar"><br>
-            23th-25th August
-          </div>
-          <div class="about-item">
-            <span class="about-head">Accomodation</span><br>
-            <img src="img/home-alt2.svg" alt="Home"><br>
-            TBD<br>
-            AGH UST Campus<br>
-            TBD<br>
-            30-065 Kraków
-          </div>
+            <div class="about-item">
+                <span class="about-head">Where?</span><br>
+                <img src="img/location.svg" alt="Location"><br>
+                Cracow, AGH UST
+            </div>
+            <div class="about-item">
+                <span class="about-head">When?</span><br>
+                <img src="img/calendar.svg" alt="Calendar"><br>
+                23th-25th August
+            </div>
+            <div class="about-item">
+                <span class="about-head">Accomodation</span><br>
+                <img src="img/home-alt2.svg" alt="Home"><br>
+                'Stokrotka' Dormitory<br>
+                AGH UST Campus<br>
+                Józefa Rostafińskiego 2<br>
+                30-072 Kraków
+            </div>
         </div>
-      </div>
-
     </div>
 
-    <!-- Why should you visit us? -->
+</div>
 
-    <div id="register" class="b-why section paralax">
+<!-- Why should you visit us? -->
 
-      <h3 class="h-section">Why should you join?</h3>
-      <div class="s-under w-under"></div>
+<div id="register" class="b-why section paralax">
 
-      <div class="t-section">
-        <p><b>This August come to Cracow, the city of Kings!</b> Here, you can wander throught the magical streets of Old Town and try to discover all of the mysteries of the city. Cracow have a lot to offer - astounding places, wonderful atmosphere, mighty dragon, and amazing nightclubs, full of life! <b>To make your visit in Cracow unforgettable</b>, our Local Committee will provide you with various attractions, such as: City game, sightseeing trips of best of the best parts of city, ending with all night long parties! <b>Meet awesome people and make unforgettable memories!</b></p>
+    <h3 class="h-section">Why should you join?</h3>
+    <div class="s-under w-under"></div>
+
+    <div class="t-section">
+        <p><b>This August come to Cracow, the city of Kings!</b> Here, you can wander throught the magical streets of
+            Old Town and try to discover all of the mysteries of the city. Cracow have a lot to offer - astounding
+            places, wonderful atmosphere, mighty dragon, and amazing nightclubs, full of life! <b>To make your visit in
+                Cracow unforgettable</b>, our Local Committee will provide you with various attractions, such as: City
+            game, sightseeing trips of best of the best parts of city, ending with all night long parties! <b>Meet
+                awesome people and make unforgettable memories!</b></p>
 
         <div class="row">
-          <div class="col-sm-4"></div>
-          <div class="col-sm-4 sign-up-btn">
-            <a href="https://forms.office.com/e/VEwMnT4ZJE" target="_blank" class="nav-link-responsive-nav-custom-sign-up-btn-nav"><b>Sign up today!</b></a>
-          </div>
-          <div class="col-sm-4"></div>
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4 sign-up-btn">
+                <a href="https://forms.office.com/e/VEwMnT4ZJE" target="_blank"
+                   class="nav-link-responsive-nav-custom-sign-up-btn-nav"><b>Sign up today!</b></a>
+            </div>
+            <div class="col-sm-4"></div>
         </div>
-      </div>
-
     </div>
 
-    <!-- Schedule -->
+</div>
 
-    <div id="schedule" class="b-schedule section paralax">
+<!-- Schedule -->
 
-      <h3 class="h-section">Schedule</h3>
-      <div class="s-under sh-under"></div>
+<div id="schedule" class="b-schedule section paralax">
 
-      <div class="s-main">
+    <h3 class="h-section">Schedule</h3>
+    <div class="s-under sh-under"></div>
+
+    <div class="s-main">
         <!-- Friday -->
         <h4 class="day">Friday - 23th August</h4>
 
         <div class="row s-el s-even">
-          <div class="col-4">
-            4pm - 6pm
-          </div>
-          <div class="col-8">
-            Check-in
-          </div>
+            <div class="col-4">
+                4pm - 6pm
+            </div>
+            <div class="col-8">
+                Check-in
+            </div>
         </div>
         <div class="row s-el s-odd">
-          <div class="col-4">
-            6pm - 10pm
-          </div>
-          <div class="col-8">
-            BBQ + games
-          </div>
+            <div class="col-4">
+                6pm - 10pm
+            </div>
+            <div class="col-8">
+                BBQ + games
+            </div>
         </div>
         <div class="row s-el s-even">
-          <div class="col-4">
-            10pm
-          </div>
-          <div class="col-8">
-            Party
-          </div>
+            <div class="col-4">
+                10pm
+            </div>
+            <div class="col-8">
+                Party
+            </div>
         </div>
 
         <!-- Saturday -->
         <h4 class="day">Saturday - 24th August</h4>
 
         <div class="row s-el s-even">
-          <div class="col-4">
-            9:00am - 10:30am
-          </div>
-          <div class="col-8">
-            Breakfast
-          </div>
+            <div class="col-4">
+                9:00am - 10:30am
+            </div>
+            <div class="col-8">
+                Breakfast
+            </div>
         </div>
         <div class="row s-el s-odd">
-          <div class="col-4">
-            11am - 4pm
-          </div>
-          <div class="col-8">
-            City Game
-          </div>
+            <div class="col-4">
+                11am - 4pm
+            </div>
+            <div class="col-8">
+                City Game
+            </div>
         </div>
         <div class="row s-el s-even">
-          <div class="col-4">
-            4pm - 5:30pm
-          </div>
-          <div class="col-8">
-            Polish dinner
-          </div>
+            <div class="col-4">
+                4pm - 5:30pm
+            </div>
+            <div class="col-8">
+                Polish dinner
+            </div>
         </div>
         <div class="row s-el s-odd">
-          <div class="col-4">
-            5:30pm - 10pm
-          </div>
-          <div class="col-8">
-            Free time
-          </div>
+            <div class="col-4">
+                5:30pm - 10pm
+            </div>
+            <div class="col-8">
+                Free time
+            </div>
         </div>
         <div class="row s-el s-even">
-          <div class="col-4">
-            10pm - to the sunrise
-          </div>
-          <div class="col-8">
-            Party
-          </div>
+            <div class="col-4">
+                10pm - to the sunrise
+            </div>
+            <div class="col-8">
+                Party
+            </div>
         </div>
 
         <!-- Sunday -->
         <h4 class="day">Sunday - 25th August</h4>
 
         <div class="row s-el s-odd">
-          <div class="col-4">
-            until 10am
-          </div>
-          <div class="col-8">
-            Check-out
-          </div>
+            <div class="col-4">
+                until 10am
+            </div>
+            <div class="col-8">
+                Check-out
+            </div>
         </div>
         <div class="row s-el s-even">
-          <div class="col-4">
-            11am
-          </div>
-          <div class="col-8">
-            Trip<br>
-            <!-- <span class="p-info">(please note that the departing time and duration of the trip may vary depending on the amount of participants)</span> -->
-          </div>
+            <div class="col-4">
+                11am
+            </div>
+            <div class="col-8">
+                 Trip to Ojców National Park<br>
+                <!-- <span class="p-info">(please note that the departing time and duration of the trip may vary depending on the amount of participants)</span> -->
+            </div>
         </div>
-      </div>
-
     </div>
 
-    <!-- Guidebook -->
+</div>
 
-    <div id="guidebook" class="section b-guide paralax">
+<!-- Guidebook -->
 
-      <h3 class="h-section">Guidebook</h3>
-      <div class="s-under g-under"></div>
+<!--    <div id="guidebook" class="section b-guide paralax">-->
 
-      <div class="t-section">
-        Don't worry, we will not leave you all alone once you are in Cracow! All essential information about getting around the city can be found in our Guidebook:<br>
-        <a href="guidebookfinal.pdf" class="nav-link nav-custom responsive"><img src="img/notebook.svg" alt="guidebook" class="guide-img"><span class="nav-mobile">The Guidebook</span></a>
-      </div>
+<!--      <h3 class="h-section">Guidebook</h3>-->
+<!--      <div class="s-under g-under"></div>-->
 
-    </div>
+<!--      <div class="t-section">-->
+<!--        Don't worry, we will not leave you all alone once you are in Cracow! All essential information about getting around the city can be found in our Guidebook:<br>-->
+<!--        <a href="guidebookfinal.pdf" class="nav-link nav-custom responsive"><img src="img/notebook.svg" alt="guidebook" class="guide-img"><span class="nav-mobile">The Guidebook</span></a>-->
+<!--      </div>-->
 
-    <!-- Payment -->
+<!--    </div>-->
 
-    <div id="payment" class="b-pay section paralax">
+<!-- Payment -->
 
-      <h3 class="h-section">Payment</h3>
-      <div class="s-under p-under"></div>
+<div id="payment" class="b-pay section paralax">
 
-      <div class="s-main">
+    <h3 class="h-section">Payment</h3>
+    <div class="s-under p-under"></div>
+
+    <div class="s-main">
 
 
         <h5 class="payinfo">Choose your desired plan from the table below.</h5>
 
         <div class="row s-el s-even p-head">
-          <div class="col-6">
-            Plan:
-          </div>
-          <div class="col-6">
-            Price:
-          </div>
+            <div class="col-6">
+                Plan:
+            </div>
+            <div class="col-6">
+                Price:
+            </div>
         </div>
         <div class="row s-el s-odd">
-          <div class="col-6">
-            Standard (with accomodation) <br>
-            <span class="p-info">(welcome pack, food, parties)</span>
-          </div>
-          <div class="col-6">
-            TBDPLN
-          </div>
+            <div class="col-6">
+                Standard <br>
+                <span class="p-info">(welcome pack, accommodation, food, parties, city game, insurance)</span>
+            </div>
+            <div class="col-6">
+                350 PLN or 85 EUR
+            </div>
         </div>
         <div class="row s-el s-even">
-          <div class="col-6">
-            Without accomodation <br>
-            <span class="p-info">(standard but no accomodation)</span>
-          </div>
-          <div class="col-6">
-            TBDPLN
-          </div>
+            <div class="col-6">
+                Standard without accommodation <br>
+            </div>
+            <div class="col-6">
+                190 PLN or 45 EUR
+            </div>
+        </div>
+        <div class="row s-el s-odd">
+            <div class="col-6">
+                Standard and extra trip on Sunday to Ojców National Park
+            </div>
+            <div class="col-6">
+                370 PLN or 90 EUR
+            </div>
+        </div>
+        <div class="row s-el s-even">
+            <div class="col-6">
+                Standard without accommodation but with extra trip on Sunday to Ojców National Park <br>
+            </div>
+            <div class="col-6">
+                210 PLN or 50 EUR
+            </div>
         </div>
         <!-- <div class="row s-el s-odd">
           <div class="col-6">
@@ -322,113 +350,115 @@
         </div> -->
 
         <div class="payinfo">
-          Information on making the payment:
-          <ul>
-            <li>Please note that you have to choose your plan in the registration form.</li>
-            <li>You will receive the payment details via e-mail.</li>
-            <li>We only accept bank transfers.</li>
-            <li>Payment deadline is <u>TBD</u>. Otherwise you will be removed from the participant's list.</li>
-            <li>Please make sure to cover all transfer costs.</li>
-          </ul>
+            Information on making the payment:
+            <ul>
+                <li>Please note that you have to choose your plan in the registration form.</li>
+                <li>You will receive the payment details via e-mail.</li>
+                <li>We only accept bank transfers.</li>
+                <li>Payment deadline is <u>11.08.2024</u>. Otherwise you will be removed from the participant's list.
+                </li>
+                <li>Please make sure to cover all transfer costs.</li>
+            </ul>
         </div>
-		</div>
     </div>
+</div>
 
-    <!-- Contact -->
+<!-- Contact -->
 
-    <div id="contact" class="b-contact section paralax">
+<div id="contact" class="b-contact section paralax">
 
-      <h3 class="h-section">Contact us!</h3>
-      <div class="s-under c-under"></div>
+    <h3 class="h-section">Contact us!</h3>
+    <div class="s-under c-under"></div>
 
-      <div class="t-section">
-        In case you have any questions, don't hesitate to contact us either directly or via Facebook.
+    <div class="t-section" style="text-align: center;">
+        In case of any questions, don't hesitate to contact us either directly or via Facebook.
 
         <div class="row">
-          <div class="col-sm-3"></div>
-          <div class="col-sm-6 c-card">
-            <b>Karolina Mleko</b><br>
-            Main Coordinator<br>
-            <img src="img/phone.svg" alt="Phone:" class="contact-icon">+48 539 888 075<br>
-            <img src="img/envelope.svg" alt="Mail:" class="contact-icon"> karolina.mleko@iaeste.pl
-          </div>
-          <div class="col-sm-3"></div>
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6 c-card">
+                <b>Karolina Mleko</b><br>
+                Main Coordinator<br>
+                <img src="img/phone.svg" alt="Phone:" class="contact-icon">+48 539 888 075<br>
+                <img src="img/envelope.svg" alt="Mail:" class="contact-icon"> karolina.mleko@iaeste.pl
+            </div>
+            <div class="col-sm-3"></div>
 
         </div>
 
         <div class="row">
-          <div class="col-sm-4"></div>
-          <div class="col-sm-4 fb-inv flex">
-            <span class="fb-inv-text">Find us on Facebook!</span>
-            <a href="https://www.facebook.com/icemiaeste" target="_blank"><img src="img/fb-icon.png" alt="fb-icon" class="fb-icon responsive"></a>
-          </div>
-          <div class="col-sm-4"></div>
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4 fb-inv flex">
+                <span class="fb-inv-text">Find us on Facebook!</span>
+                <a href="https://www.facebook.com/icemiaeste" target="_blank"><img src="img/fb-icon.png" alt="fb-icon"
+                                                                                   class="fb-icon responsive"></a>
+            </div>
+            <div class="col-sm-4"></div>
         </div>
-
-      </div>
 
     </div>
 
-    <!-- Sponsors -->
+</div>
 
-    <!-- <div class="b-sponsors section paralax">
+<!-- Sponsors -->
 
-      <h3 class="h-section">Sponsors</h3>
-      <div class="s-under sp-under"></div>
+<!-- <div class="b-sponsors section paralax">
 
-      <div class="t-section">
-        <h4 class="sponsors-head">Our sponsors</h4>
+  <h3 class="h-section">Sponsors</h3>
+  <div class="s-under sp-under"></div>
 
-        <div class="row mx-auto">
-          <div class="col-sm-5 mx-auto">
-            <img src="img/JeronimoMartins.png" alt="Jeronimo Martins Logo" class="sp-logo">
-          </div>
-          <div class="col-sm-2">
-          </div>
-          <div class="col-sm-5 mx-auto">
-            <img src="img/SYLVECO_LOGO.png" alt="Sylveco Logo" class="sp-logo">
-          </div>
-        </div>
-        <div class="row mx-auto">
-          <div class="col-sm-5 mx-auto">
-            <img src="img/pizzahut-logo.png" alt="Pizza Hut Logo" class="sp-logo" style="margin-top: 2vw;">
-          </div>
-          <div class="col-sm-2">
-          </div>
-          <div class="col-sm-5 mx-auto">
-            <img src="img/lajkonik-logo.png" alt="Lajkonik Logo" class="sp-logo">
-          </div>
-        </div>
+  <div class="t-section">
+    <h4 class="sponsors-head">Our sponsors</h4>
 
-        <h4 class="sponsors-head">Partners</h4>
-
-        <div class="row mx-auto">
-          <div class="col-sm-5 mx-auto">
-            <img src="img/Logo Krakow_C_rgb.jpg" alt="City of Cracow Logo" class="sp-logo">
-          </div>
-          <div class="col-sm-2">
-          </div>
-          <div class="col-sm-5 mx-auto">
-            <img src="img/logo-agh.png" alt="AGH UST Logo" class="sp-logo">
-          </div>
-        </div>
-
-        <h4 class="sponsors-head">Media partner</h4>
-
-        <div class="row mx-auto">
-          <div class="col-sm-3 mx-auto"></div>
-          <div class="col-sm-6">
-            <img src="img/Logo_krakow pl_H_cmyk.jpg" alt="Krakow.pl Logo" class="sp-logo">
-          </div>
-          <div class="col-sm-3 mx-auto"></div>
-        </div>
+    <div class="row mx-auto">
+      <div class="col-sm-5 mx-auto">
+        <img src="img/JeronimoMartins.png" alt="Jeronimo Martins Logo" class="sp-logo">
       </div>
-
-    </div> -->
-
-    <div class="footer">
-      Made by Cracow AGH IAESTE Comitee
+      <div class="col-sm-2">
+      </div>
+      <div class="col-sm-5 mx-auto">
+        <img src="img/SYLVECO_LOGO.png" alt="Sylveco Logo" class="sp-logo">
+      </div>
+    </div>
+    <div class="row mx-auto">
+      <div class="col-sm-5 mx-auto">
+        <img src="img/pizzahut-logo.png" alt="Pizza Hut Logo" class="sp-logo" style="margin-top: 2vw;">
+      </div>
+      <div class="col-sm-2">
+      </div>
+      <div class="col-sm-5 mx-auto">
+        <img src="img/lajkonik-logo.png" alt="Lajkonik Logo" class="sp-logo">
+      </div>
     </div>
 
-  </body>
+    <h4 class="sponsors-head">Partners</h4>
+
+    <div class="row mx-auto">
+      <div class="col-sm-5 mx-auto">
+        <img src="img/Logo Krakow_C_rgb.jpg" alt="City of Cracow Logo" class="sp-logo">
+      </div>
+      <div class="col-sm-2">
+      </div>
+      <div class="col-sm-5 mx-auto">
+        <img src="img/logo-agh.png" alt="AGH UST Logo" class="sp-logo">
+      </div>
+    </div>
+
+    <h4 class="sponsors-head">Media partner</h4>
+
+    <div class="row mx-auto">
+      <div class="col-sm-3 mx-auto"></div>
+      <div class="col-sm-6">
+        <img src="img/Logo_krakow pl_H_cmyk.jpg" alt="Krakow.pl Logo" class="sp-logo">
+      </div>
+      <div class="col-sm-3 mx-auto"></div>
+    </div>
+  </div>
+
+</div> -->
+
+<div class="footer">
+    Made by Cracow AGH IAESTE Comitee
+</div>
+
+</body>
 </html>
