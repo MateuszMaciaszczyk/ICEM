@@ -9,19 +9,22 @@ body {
 }
 
 .navbar-custom{
-  height: 5vw;
+  height: 10vw;
   font-size: 1.5vw;
 }
 
 .logo{
-  height: 4.5vw;
+  height: 7vw;
+
 }
+navbar .navbar-brand {height: 200px !important; //Whatever you are targetting}
+
+
 
 .top{
   margin-top: 5vw;
   margin-bottom: 1vw;
 }
-
 .opacity {
   opacity: 0.7;
 }
@@ -275,11 +278,9 @@ body {
 
 .footer{
   font-size: 1vw;
-  font-style: 'Josefin Sans', sans-serif;
   position: relative;
   bottom: 0.5vw;
-  left: 3vw;
-  width: 50%;
+  text-align: center;
 }
 
 .qrcode-gen{
